@@ -1,0 +1,1642 @@
+aditya@wOrm29:/$ cd Desktop
+bash: cd: Desktop: No such file or directory
+aditya@wOrm29:/$ cd Desktop/
+bash: cd: Desktop/: No such file or directory
+aditya@wOrm29:/$ cd home
+aditya@wOrm29:/home$ cd dekstop
+bash: cd: dekstop: No such file or directory
+aditya@wOrm29:/home$ cd desktop
+bash: cd: desktop: No such file or directory
+aditya@wOrm29:/home$ ls
+aditya
+aditya@wOrm29:/home$ cd aditya
+aditya@wOrm29:~$ cd desktop
+bash: cd: desktop: No such file or directory
+aditya@wOrm29:~$ cd Final-Codes/
+aditya@wOrm29:~/Final-Codes$ ls
+'Final Codes'
+aditya@wOrm29:~/Final-Codes$ cd
+aditya@wOrm29:~$ cd Fina
+bash: cd: Fina: No such file or directory
+aditya@wOrm29:~$ cd Final-Codes/
+aditya@wOrm29:~/Final-Codes$ ls
+'Final Codes'
+aditya@wOrm29:~/Final-Codes$ cd Final\ Codes/
+aditya@wOrm29:~/Final-Codes/Final Codes$ ls
+CC_Docker
+aditya@wOrm29:~/Final-Codes/Final Codes$ cd CC_Docker/
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ ls
+S2  S6
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ cd S2
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2$ pwd
+/home/aditya/Final-Codes/Final Codes/CC_Docker/S2
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2$ clear
+
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2$ cd D-1
+bash: cd: D-1: No such file or directory
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2$ ls
+D1  D2  D6  D7
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2$ cd D1
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D1$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D1$ touch Dockerfile
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D1$ sudo docker built -t img_from .
+[sudo] password for aditya: 
+unknown shorthand flag: 't' in -t
+See 'docker --help'.
+
+Usage:	docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Options:
+      --config string      Location of client config files (default "/home/aditya/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context set with
+                           "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket(s) to connect to
+  -l, --log-level string   Set the logging level ("debug"|"info"|"warn"|"error"|"fatal") (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default "/home/aditya/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/home/aditya/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/home/aditya/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Management Commands:
+  builder     Manage builds
+  config      Manage Docker configs
+  container   Manage containers
+  context     Manage contexts
+  engine      Manage the docker engine
+  image       Manage images
+  network     Manage networks
+  node        Manage Swarm nodes
+  plugin      Manage plugins
+  secret      Manage Docker secrets
+  service     Manage services
+  stack       Manage Docker stacks
+  swarm       Manage Swarm
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  build       Build an image from a Dockerfile
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  images      List images
+  import      Import the contents from a tarball to create a filesystem image
+  info        Display system-wide information
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  login       Log in to a Docker registry
+  logout      Log out from a Docker registry
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  ps          List containers
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  run         Run a command in a new container
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  search      Search the Docker Hub for images
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  version     Show the Docker version information
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker COMMAND --help' for more information on a command.
+
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D1$ docker built -t img_from .
+unknown shorthand flag: 't' in -t
+See 'docker --help'.
+
+Usage:	docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Options:
+      --config string      Location of client config files (default "/home/aditya/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context set with
+                           "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket(s) to connect to
+  -l, --log-level string   Set the logging level ("debug"|"info"|"warn"|"error"|"fatal") (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default "/home/aditya/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/home/aditya/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/home/aditya/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Management Commands:
+  builder     Manage builds
+  config      Manage Docker configs
+  container   Manage containers
+  context     Manage contexts
+  engine      Manage the docker engine
+  image       Manage images
+  network     Manage networks
+  node        Manage Swarm nodes
+  plugin      Manage plugins
+  secret      Manage Docker secrets
+  service     Manage services
+  stack       Manage Docker stacks
+  swarm       Manage Swarm
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  build       Build an image from a Dockerfile
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  deploy      Deploy a new stack or update an existing stack
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  images      List images
+  import      Import the contents from a tarball to create a filesystem image
+  info        Display system-wide information
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  login       Log in to a Docker registry
+  logout      Log out from a Docker registry
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  ps          List containers
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  run         Run a command in a new container
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  search      Search the Docker Hub for images
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  version     Show the Docker version information
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker COMMAND --help' for more information on a command.
+
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D1$ sudo docker built t img_from .
+docker: 'built' is not a docker command.
+See 'docker --help'
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D1$ sudo docker build -t img_from .
+Sending build context to Docker daemon   2.56kB
+Error response from daemon: the Dockerfile (Dockerfile) cannot be empty
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D1$ sudo docker build -t img_from .
+Sending build context to Docker daemon  2.048kB
+Step 1/4 : ARG CODE_VERSION=16.04
+Step 2/4 : FROM ubuntu:${CODE_VERSION}
+16.04: Pulling from library/ubuntu
+fe703b657a32: Pull complete 
+f9df1fafd224: Pull complete 
+a645a4b887f9: Pull complete 
+57db7fe0b522: Pull complete 
+Digest: sha256:e9938f45e51d9ff46e2b05a62e0546d0f07489b7f22fbc5288defe760599e38a
+Status: Downloaded newer image for ubuntu:16.04
+ ---> 77be327e4b63
+Step 3/4 : RUN apt-get update -y
+ ---> Running in 3bf6d6a79097
+Get:1 http://archive.ubuntu.com/ubuntu xenial InRelease [247 kB]
+Get:2 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial/main amd64 Packages [1558 kB]
+Get:6 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [1063 kB]
+Get:7 http://archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages [14.1 kB]
+Get:8 http://archive.ubuntu.com/ubuntu xenial/universe amd64 Packages [9827 kB]
+Get:9 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages [12.7 kB]
+Get:10 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [620 kB]
+Get:11 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [6280 B]
+Get:12 http://archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages [176 kB]
+Get:13 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [1432 kB]
+Get:14 http://archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages [13.1 kB]
+Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [1021 kB]
+Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [19.3 kB]
+Get:17 http://archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [7942 B]
+Get:18 http://archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [8807 B]
+Fetched 16.4 MB in 27s (589 kB/s)
+Reading package lists...
+Removing intermediate container 3bf6d6a79097
+ ---> d24124966a80
+Step 4/4 : CMD ["bash"]
+ ---> Running in 2eb302aa43a9
+Removing intermediate container 2eb302aa43a9
+ ---> 6b3d70f1d48d
+Successfully built 6b3d70f1d48d
+Successfully tagged img_from:latest
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D1$ sudo docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+img_from            latest              6b3d70f1d48d        10 seconds ago      150MB
+nginx               latest              a1523e859360        38 hours ago        127MB
+ubuntu              16.04               77be327e4b63        6 days ago          124MB
+nginx               <none>              2073e0bcb60e        3 weeks ago         127MB
+hello-world         latest              fce289e99eb9        14 months ago       1.84kB
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D1$ cd ..
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2$ cd D2
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D2$ ls
+Dockerfile.txt
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D2$ sudo docker build -t img_run-env .
+unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /home/aditya/Final-Codes/Final Codes/CC_Docker/S2/D2/Dockerfile: no such file or directory
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D2$ sudo docker build -t img_run-env .
+Sending build context to Docker daemon  2.048kB
+Step 1/8 : FROM ubuntu:16.04
+ ---> 77be327e4b63
+Step 2/8 : LABEL Creator: "Cerulean Canvas"
+ ---> Running in 171582eac41f
+Removing intermediate container 171582eac41f
+ ---> 025e9ce06bd5
+Step 3/8 : RUN apt-get update && apt-get install -y curl     && apt-get clean     && rm -rf /var/lib/apt/lists/*
+ ---> Running in 3abce4fb004c
+Get:1 http://archive.ubuntu.com/ubuntu xenial InRelease [247 kB]
+Get:2 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:4 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [1063 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:6 http://archive.ubuntu.com/ubuntu xenial/main amd64 Packages [1558 kB]
+Get:7 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages [12.7 kB]
+Get:8 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [620 kB]
+Get:9 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [6280 B]
+Get:10 http://archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages [14.1 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial/universe amd64 Packages [9827 kB]
+Get:12 http://archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages [176 kB]
+Get:13 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [1432 kB]
+Get:14 http://archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages [13.1 kB]
+Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [1021 kB]
+Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [19.3 kB]
+Get:17 http://archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [7942 B]
+Get:18 http://archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [8807 B]
+Fetched 16.4 MB in 28s (580 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  ca-certificates krb5-locales libasn1-8-heimdal libcurl3-gnutls libffi6
+  libgmp10 libgnutls30 libgssapi-krb5-2 libgssapi3-heimdal libhcrypto4-heimdal
+  libheimbase1-heimdal libheimntlm0-heimdal libhogweed4 libhx509-5-heimdal
+  libidn11 libk5crypto3 libkeyutils1 libkrb5-26-heimdal libkrb5-3
+  libkrb5support0 libldap-2.4-2 libnettle6 libp11-kit0 libroken18-heimdal
+  librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libsqlite3-0
+  libssl1.0.0 libtasn1-6 libwind0-heimdal openssl
+Suggested packages:
+  gnutls-bin krb5-doc krb5-user libsasl2-modules-otp libsasl2-modules-ldap
+  libsasl2-modules-sql libsasl2-modules-gssapi-mit
+  | libsasl2-modules-gssapi-heimdal
+The following NEW packages will be installed:
+  ca-certificates curl krb5-locales libasn1-8-heimdal libcurl3-gnutls libffi6
+  libgmp10 libgnutls30 libgssapi-krb5-2 libgssapi3-heimdal libhcrypto4-heimdal
+  libheimbase1-heimdal libheimntlm0-heimdal libhogweed4 libhx509-5-heimdal
+  libidn11 libk5crypto3 libkeyutils1 libkrb5-26-heimdal libkrb5-3
+  libkrb5support0 libldap-2.4-2 libnettle6 libp11-kit0 libroken18-heimdal
+  librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libsqlite3-0
+  libssl1.0.0 libtasn1-6 libwind0-heimdal openssl
+0 upgraded, 34 newly installed, 0 to remove and 0 not upgraded.
+Need to get 5346 kB of archives.
+After this operation, 19.0 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 libffi6 amd64 3.2.1-4 [17.8 kB]
+Get:2 http://archive.ubuntu.com/ubuntu xenial/main amd64 libgmp10 amd64 2:6.1.0+dfsg-2 [240 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libnettle6 amd64 3.2-1ubuntu0.16.04.1 [93.5 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libhogweed4 amd64 3.2-1ubuntu0.16.04.1 [136 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libidn11 amd64 1.32-3ubuntu1.2 [46.5 kB]
+Get:6 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libp11-kit0 amd64 0.23.2-5~ubuntu16.04.1 [105 kB]
+Get:7 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libtasn1-6 amd64 4.7-3ubuntu0.16.04.3 [43.5 kB]
+Get:8 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgnutls30 amd64 3.4.10-4ubuntu1.7 [548 kB]
+Get:9 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsqlite3-0 amd64 3.11.0-1ubuntu1.3 [397 kB]
+Get:10 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libssl1.0.0 amd64 1.0.2g-1ubuntu4.15 [1084 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 openssl amd64 1.0.2g-1ubuntu4.15 [492 kB]
+Get:12 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 ca-certificates all 20170717~16.04.2 [167 kB]
+Get:13 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 krb5-locales all 1.13.2+dfsg-5ubuntu2.1 [13.6 kB]
+Get:14 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libroken18-heimdal amd64 1.7~git20150920+dfsg-4ubuntu1.16.04.1 [41.4 kB]
+Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libasn1-8-heimdal amd64 1.7~git20150920+dfsg-4ubuntu1.16.04.1 [174 kB]
+Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libkrb5support0 amd64 1.13.2+dfsg-5ubuntu2.1 [31.2 kB]
+Get:17 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libk5crypto3 amd64 1.13.2+dfsg-5ubuntu2.1 [81.3 kB]
+Get:18 http://archive.ubuntu.com/ubuntu xenial/main amd64 libkeyutils1 amd64 1.5.9-8ubuntu1 [9904 B]
+Get:19 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libkrb5-3 amd64 1.13.2+dfsg-5ubuntu2.1 [273 kB]
+Get:20 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgssapi-krb5-2 amd64 1.13.2+dfsg-5ubuntu2.1 [120 kB]
+Get:21 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libhcrypto4-heimdal amd64 1.7~git20150920+dfsg-4ubuntu1.16.04.1 [85.0 kB]
+Get:22 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libheimbase1-heimdal amd64 1.7~git20150920+dfsg-4ubuntu1.16.04.1 [29.3 kB]
+Get:23 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libwind0-heimdal amd64 1.7~git20150920+dfsg-4ubuntu1.16.04.1 [47.8 kB]
+Get:24 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libhx509-5-heimdal amd64 1.7~git20150920+dfsg-4ubuntu1.16.04.1 [107 kB]
+Get:25 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libkrb5-26-heimdal amd64 1.7~git20150920+dfsg-4ubuntu1.16.04.1 [202 kB]
+Get:26 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libheimntlm0-heimdal amd64 1.7~git20150920+dfsg-4ubuntu1.16.04.1 [15.1 kB]
+Get:27 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgssapi3-heimdal amd64 1.7~git20150920+dfsg-4ubuntu1.16.04.1 [96.1 kB]
+Get:28 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsasl2-modules-db amd64 2.1.26.dfsg1-14ubuntu0.2 [14.5 kB]
+Get:29 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsasl2-2 amd64 2.1.26.dfsg1-14ubuntu0.2 [48.7 kB]
+Get:30 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libldap-2.4-2 amd64 2.4.42+dfsg-2ubuntu3.7 [160 kB]
+Get:31 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d-1ubuntu0.1 [54.4 kB]
+Get:32 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcurl3-gnutls amd64 7.47.0-1ubuntu2.14 [184 kB]
+Get:33 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsasl2-modules amd64 2.1.26.dfsg1-14ubuntu0.2 [47.7 kB]
+Get:34 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 curl amd64 7.47.0-1ubuntu2.14 [139 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 5346 kB in 15s (352 kB/s)
+Selecting previously unselected package libffi6:amd64.
+(Reading database ... 4781 files and directories currently installed.)
+Preparing to unpack .../libffi6_3.2.1-4_amd64.deb ...
+Unpacking libffi6:amd64 (3.2.1-4) ...
+Selecting previously unselected package libgmp10:amd64.
+Preparing to unpack .../libgmp10_2%3a6.1.0+dfsg-2_amd64.deb ...
+Unpacking libgmp10:amd64 (2:6.1.0+dfsg-2) ...
+Selecting previously unselected package libnettle6:amd64.
+Preparing to unpack .../libnettle6_3.2-1ubuntu0.16.04.1_amd64.deb ...
+Unpacking libnettle6:amd64 (3.2-1ubuntu0.16.04.1) ...
+Selecting previously unselected package libhogweed4:amd64.
+Preparing to unpack .../libhogweed4_3.2-1ubuntu0.16.04.1_amd64.deb ...
+Unpacking libhogweed4:amd64 (3.2-1ubuntu0.16.04.1) ...
+Selecting previously unselected package libidn11:amd64.
+Preparing to unpack .../libidn11_1.32-3ubuntu1.2_amd64.deb ...
+Unpacking libidn11:amd64 (1.32-3ubuntu1.2) ...
+Selecting previously unselected package libp11-kit0:amd64.
+Preparing to unpack .../libp11-kit0_0.23.2-5~ubuntu16.04.1_amd64.deb ...
+Unpacking libp11-kit0:amd64 (0.23.2-5~ubuntu16.04.1) ...
+Selecting previously unselected package libtasn1-6:amd64.
+Preparing to unpack .../libtasn1-6_4.7-3ubuntu0.16.04.3_amd64.deb ...
+Unpacking libtasn1-6:amd64 (4.7-3ubuntu0.16.04.3) ...
+Selecting previously unselected package libgnutls30:amd64.
+Preparing to unpack .../libgnutls30_3.4.10-4ubuntu1.7_amd64.deb ...
+Unpacking libgnutls30:amd64 (3.4.10-4ubuntu1.7) ...
+Selecting previously unselected package libsqlite3-0:amd64.
+Preparing to unpack .../libsqlite3-0_3.11.0-1ubuntu1.3_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.11.0-1ubuntu1.3) ...
+Selecting previously unselected package libssl1.0.0:amd64.
+Preparing to unpack .../libssl1.0.0_1.0.2g-1ubuntu4.15_amd64.deb ...
+Unpacking libssl1.0.0:amd64 (1.0.2g-1ubuntu4.15) ...
+Selecting previously unselected package openssl.
+Preparing to unpack .../openssl_1.0.2g-1ubuntu4.15_amd64.deb ...
+Unpacking openssl (1.0.2g-1ubuntu4.15) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../ca-certificates_20170717~16.04.2_all.deb ...
+Unpacking ca-certificates (20170717~16.04.2) ...
+Selecting previously unselected package krb5-locales.
+Preparing to unpack .../krb5-locales_1.13.2+dfsg-5ubuntu2.1_all.deb ...
+Unpacking krb5-locales (1.13.2+dfsg-5ubuntu2.1) ...
+Selecting previously unselected package libroken18-heimdal:amd64.
+Preparing to unpack .../libroken18-heimdal_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb ...
+Unpacking libroken18-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Selecting previously unselected package libasn1-8-heimdal:amd64.
+Preparing to unpack .../libasn1-8-heimdal_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb ...
+Unpacking libasn1-8-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Selecting previously unselected package libkrb5support0:amd64.
+Preparing to unpack .../libkrb5support0_1.13.2+dfsg-5ubuntu2.1_amd64.deb ...
+Unpacking libkrb5support0:amd64 (1.13.2+dfsg-5ubuntu2.1) ...
+Selecting previously unselected package libk5crypto3:amd64.
+Preparing to unpack .../libk5crypto3_1.13.2+dfsg-5ubuntu2.1_amd64.deb ...
+Unpacking libk5crypto3:amd64 (1.13.2+dfsg-5ubuntu2.1) ...
+Selecting previously unselected package libkeyutils1:amd64.
+Preparing to unpack .../libkeyutils1_1.5.9-8ubuntu1_amd64.deb ...
+Unpacking libkeyutils1:amd64 (1.5.9-8ubuntu1) ...
+Selecting previously unselected package libkrb5-3:amd64.
+Preparing to unpack .../libkrb5-3_1.13.2+dfsg-5ubuntu2.1_amd64.deb ...
+Unpacking libkrb5-3:amd64 (1.13.2+dfsg-5ubuntu2.1) ...
+Selecting previously unselected package libgssapi-krb5-2:amd64.
+Preparing to unpack .../libgssapi-krb5-2_1.13.2+dfsg-5ubuntu2.1_amd64.deb ...
+Unpacking libgssapi-krb5-2:amd64 (1.13.2+dfsg-5ubuntu2.1) ...
+Selecting previously unselected package libhcrypto4-heimdal:amd64.
+Preparing to unpack .../libhcrypto4-heimdal_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb ...
+Unpacking libhcrypto4-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Selecting previously unselected package libheimbase1-heimdal:amd64.
+Preparing to unpack .../libheimbase1-heimdal_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb ...
+Unpacking libheimbase1-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Selecting previously unselected package libwind0-heimdal:amd64.
+Preparing to unpack .../libwind0-heimdal_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb ...
+Unpacking libwind0-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Selecting previously unselected package libhx509-5-heimdal:amd64.
+Preparing to unpack .../libhx509-5-heimdal_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb ...
+Unpacking libhx509-5-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Selecting previously unselected package libkrb5-26-heimdal:amd64.
+Preparing to unpack .../libkrb5-26-heimdal_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb ...
+Unpacking libkrb5-26-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Selecting previously unselected package libheimntlm0-heimdal:amd64.
+Preparing to unpack .../libheimntlm0-heimdal_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb ...
+Unpacking libheimntlm0-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Selecting previously unselected package libgssapi3-heimdal:amd64.
+Preparing to unpack .../libgssapi3-heimdal_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb ...
+Unpacking libgssapi3-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../libsasl2-modules-db_2.1.26.dfsg1-14ubuntu0.2_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.26.dfsg1-14ubuntu0.2) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../libsasl2-2_2.1.26.dfsg1-14ubuntu0.2_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.26.dfsg1-14ubuntu0.2) ...
+Selecting previously unselected package libldap-2.4-2:amd64.
+Preparing to unpack .../libldap-2.4-2_2.4.42+dfsg-2ubuntu3.7_amd64.deb ...
+Unpacking libldap-2.4-2:amd64 (2.4.42+dfsg-2ubuntu3.7) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../librtmp1_2.4+20151223.gitfa8646d-1ubuntu0.1_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d-1ubuntu0.1) ...
+Selecting previously unselected package libcurl3-gnutls:amd64.
+Preparing to unpack .../libcurl3-gnutls_7.47.0-1ubuntu2.14_amd64.deb ...
+Unpacking libcurl3-gnutls:amd64 (7.47.0-1ubuntu2.14) ...
+Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../libsasl2-modules_2.1.26.dfsg1-14ubuntu0.2_amd64.deb ...
+Unpacking libsasl2-modules:amd64 (2.1.26.dfsg1-14ubuntu0.2) ...
+Selecting previously unselected package curl.
+Preparing to unpack .../curl_7.47.0-1ubuntu2.14_amd64.deb ...
+Unpacking curl (7.47.0-1ubuntu2.14) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up libffi6:amd64 (3.2.1-4) ...
+Setting up libgmp10:amd64 (2:6.1.0+dfsg-2) ...
+Setting up libnettle6:amd64 (3.2-1ubuntu0.16.04.1) ...
+Setting up libhogweed4:amd64 (3.2-1ubuntu0.16.04.1) ...
+Setting up libidn11:amd64 (1.32-3ubuntu1.2) ...
+Setting up libp11-kit0:amd64 (0.23.2-5~ubuntu16.04.1) ...
+Setting up libtasn1-6:amd64 (4.7-3ubuntu0.16.04.3) ...
+Setting up libgnutls30:amd64 (3.4.10-4ubuntu1.7) ...
+Setting up libsqlite3-0:amd64 (3.11.0-1ubuntu1.3) ...
+Setting up libssl1.0.0:amd64 (1.0.2g-1ubuntu4.15) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up openssl (1.0.2g-1ubuntu4.15) ...
+Setting up ca-certificates (20170717~16.04.2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up krb5-locales (1.13.2+dfsg-5ubuntu2.1) ...
+Setting up libroken18-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Setting up libasn1-8-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Setting up libkrb5support0:amd64 (1.13.2+dfsg-5ubuntu2.1) ...
+Setting up libk5crypto3:amd64 (1.13.2+dfsg-5ubuntu2.1) ...
+Setting up libkeyutils1:amd64 (1.5.9-8ubuntu1) ...
+Setting up libkrb5-3:amd64 (1.13.2+dfsg-5ubuntu2.1) ...
+Setting up libgssapi-krb5-2:amd64 (1.13.2+dfsg-5ubuntu2.1) ...
+Setting up libhcrypto4-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Setting up libheimbase1-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Setting up libwind0-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Setting up libhx509-5-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Setting up libkrb5-26-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Setting up libheimntlm0-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Setting up libgssapi3-heimdal:amd64 (1.7~git20150920+dfsg-4ubuntu1.16.04.1) ...
+Setting up libsasl2-modules-db:amd64 (2.1.26.dfsg1-14ubuntu0.2) ...
+Setting up libsasl2-2:amd64 (2.1.26.dfsg1-14ubuntu0.2) ...
+Setting up libldap-2.4-2:amd64 (2.4.42+dfsg-2ubuntu3.7) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d-1ubuntu0.1) ...
+Setting up libcurl3-gnutls:amd64 (7.47.0-1ubuntu2.14) ...
+Setting up libsasl2-modules:amd64 (2.1.26.dfsg1-14ubuntu0.2) ...
+Setting up curl (7.47.0-1ubuntu2.14) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for ca-certificates (20170717~16.04.2) ...
+Updating certificates in /etc/ssl/certs...
+148 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+Removing intermediate container 3abce4fb004c
+ ---> 4bf6bbb41402
+Step 4/8 : RUN mkdir /home/Codes
+ ---> Running in b675af98a224
+Removing intermediate container b675af98a224
+ ---> b6d1c6934170
+Step 5/8 : ENV USER Cerulean-Canvas
+ ---> Running in 9f15da464fb0
+Removing intermediate container 9f15da464fb0
+ ---> 4bd1e7970994
+Step 6/8 : ENV SHELL /bin/bash
+ ---> Running in c996955fa0e6
+Removing intermediate container c996955fa0e6
+ ---> f0124e67e376
+Step 7/8 : ENV LOGNAME Cerulean-Canvas
+ ---> Running in 8a938ce6fe17
+Removing intermediate container 8a938ce6fe17
+ ---> e264dfb6e009
+Step 8/8 : CMD ["bash"]
+ ---> Running in 3b20627f27eb
+Removing intermediate container 3b20627f27eb
+ ---> c4af2c18e103
+Successfully built c4af2c18e103
+Successfully tagged img_run-env:latest
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D2$ sudo docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+img_run-env         latest              c4af2c18e103        12 seconds ago      140MB
+img_from            latest              6b3d70f1d48d        4 minutes ago       150MB
+nginx               latest              a1523e859360        38 hours ago        127MB
+ubuntu              16.04               77be327e4b63        6 days ago          124MB
+nginx               <none>              2073e0bcb60e        3 weeks ago         127MB
+hello-world         latest              fce289e99eb9        14 months ago       1.84kB
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D2$ sudo docker run -itd --name cont_run-env img_run-env
+29752021a9ee39282f442cd9bbc77bf4fd9d3ba1e47097910da2956a8de09238
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D2$ sudo docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS                  NAMES
+29752021a9ee        img_run-env         "bash"                   13 seconds ago      Up 12 seconds                                      cont_run-env
+9fae32d4b190        hello-world         "/hello"                 31 minutes ago      Exited (0) 31 minutes ago                          condescending_faraday
+bcf028fcfc46        nginx:latest        "nginx -g 'daemon of…"   32 minutes ago      Exited (0) 31 minutes ago                          eloquent_agnesi
+d04cc9e6980e        nginx:latest        "nginx -g 'daemon of…"   35 minutes ago      Up 35 minutes               0.0.0.0:8000->80/tcp   web-server-nginx
+d814508236f3        hello-world         "/hello"                 48 minutes ago      Exited (0) 48 minutes ago                          practical_hoover
+ccfdb02683ca        hello-world         "/hello"                 3 hours ago         Exited (0) 3 hours ago                             competent_kapitsa
+7cd5eb5c787d        hello-world         "/hello"                 12 days ago         Exited (0) 12 days ago                             happy_sutherland
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D2$ sudo docker exec -it cont_run-env bash
+root@29752021a9ee:/# 
+root@29752021a9ee:/# ls
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+root@29752021a9ee:/# echo $USER
+Cerulean-Canvas
+root@29752021a9ee:/# echo $SHELL
+/bin/bash
+root@29752021a9ee:/# echo $LOGNAME
+Cerulean-Canvas
+root@29752021a9ee:/# cd /home
+root@29752021a9ee:/home# ls
+Codes
+root@29752021a9ee:/home# 
+root@29752021a9ee:/home# exit
+exit
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D2$ cd ..
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2$ cd D6
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ ls
+Dockerfile.txt
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ sudo docker build -t img_expose .
+Sending build context to Docker daemon  2.048kB
+Step 1/4 : FROM ubuntu:16.04
+ ---> 77be327e4b63
+Step 2/4 : RUN apt-get update && apt-get install nginx -y     && apt-get clean     && rm -rf /var/lib/apt/lists/*
+ ---> Running in 650adfa8796c
+Get:1 http://archive.ubuntu.com/ubuntu xenial InRelease [247 kB]
+Get:2 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial/main amd64 Packages [1558 kB]
+Get:6 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [1063 kB]
+Get:7 http://archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages [14.1 kB]
+Get:8 http://archive.ubuntu.com/ubuntu xenial/universe amd64 Packages [9827 kB]
+Get:9 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages [12.7 kB]
+Get:10 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [620 kB]
+Get:11 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [6280 B]
+Get:12 http://archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages [176 kB]
+Get:13 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [1432 kB]
+Get:14 http://archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages [13.1 kB]
+Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [1021 kB]
+Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [19.3 kB]
+Get:17 http://archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [7942 B]
+Get:18 http://archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [8807 B]
+Fetched 16.4 MB in 23s (685 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  fontconfig-config fonts-dejavu-core geoip-database libexpat1 libfontconfig1
+  libfreetype6 libgd3 libgeoip1 libicu55 libjbig0 libjpeg-turbo8 libjpeg8
+  libpng12-0 libssl1.0.0 libtiff5 libvpx3 libx11-6 libx11-data libxau6 libxcb1
+  libxdmcp6 libxml2 libxpm4 libxslt1.1 nginx-common nginx-core sgml-base ucf
+  xml-core
+Suggested packages:
+  libgd-tools geoip-bin fcgiwrap nginx-doc ssl-cert sgml-base-doc debhelper
+The following NEW packages will be installed:
+  fontconfig-config fonts-dejavu-core geoip-database libexpat1 libfontconfig1
+  libfreetype6 libgd3 libgeoip1 libicu55 libjbig0 libjpeg-turbo8 libjpeg8
+  libpng12-0 libssl1.0.0 libtiff5 libvpx3 libx11-6 libx11-data libxau6 libxcb1
+  libxdmcp6 libxml2 libxpm4 libxslt1.1 nginx nginx-common nginx-core sgml-base
+  ucf xml-core
+0 upgraded, 30 newly installed, 0 to remove and 0 not upgraded.
+Need to get 15.5 MB of archives.
+After this operation, 57.4 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxau6 amd64 1:1.0.8-1 [8376 B]
+Get:2 http://archive.ubuntu.com/ubuntu xenial/main amd64 sgml-base all 1.26+nmu4ubuntu1 [12.5 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libjpeg-turbo8 amd64 1.4.2-0ubuntu3.3 [111 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial/main amd64 libjbig0 amd64 2.1-3.1 [26.6 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libexpat1 amd64 2.1.0-7ubuntu0.16.04.5 [71.5 kB]
+Get:6 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpng12-0 amd64 1.2.54-1ubuntu1.1 [116 kB]
+Get:7 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libssl1.0.0 amd64 1.0.2g-1ubuntu4.15 [1084 kB]
+Get:8 http://archive.ubuntu.com/ubuntu xenial/main amd64 ucf all 3.0036 [52.9 kB]
+Get:9 http://archive.ubuntu.com/ubuntu xenial/main amd64 geoip-database all 20160408-1 [1678 kB]
+Get:10 http://archive.ubuntu.com/ubuntu xenial/main amd64 libgeoip1 amd64 1.6.9-1 [70.1 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libicu55 amd64 55.1-7ubuntu0.4 [7646 kB]
+Get:12 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxdmcp6 amd64 1:1.1.2-1.1 [11.0 kB]
+Get:13 http://archive.ubuntu.com/ubuntu xenial/main amd64 libxcb1 amd64 1.11.1-1ubuntu1 [40.0 kB]
+Get:14 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx11-data all 2:1.6.3-1ubuntu2.1 [113 kB]
+Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx11-6 amd64 2:1.6.3-1ubuntu2.1 [570 kB]
+Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxml2 amd64 2.9.3+dfsg1-1ubuntu0.7 [698 kB]
+Get:17 http://archive.ubuntu.com/ubuntu xenial/main amd64 xml-core all 0.13+nmu2 [23.3 kB]
+Get:18 http://archive.ubuntu.com/ubuntu xenial/main amd64 fonts-dejavu-core all 2.35-1 [1039 kB]
+Get:19 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 fontconfig-config all 2.11.94-0ubuntu1.1 [49.9 kB]
+Get:20 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libfreetype6 amd64 2.6.1-0.1ubuntu2.4 [315 kB]
+Get:21 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libfontconfig1 amd64 2.11.94-0ubuntu1.1 [131 kB]
+Get:22 http://archive.ubuntu.com/ubuntu xenial/main amd64 libjpeg8 amd64 8c-2ubuntu8 [2194 B]
+Get:23 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libtiff5 amd64 4.0.6-1ubuntu0.7 [149 kB]
+Get:24 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libvpx3 amd64 1.5.0-2ubuntu1.1 [732 kB]
+Get:25 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxpm4 amd64 1:3.5.11-1ubuntu0.16.04.1 [33.8 kB]
+Get:26 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgd3 amd64 2.1.1-4ubuntu0.16.04.11 [126 kB]
+Get:27 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxslt1.1 amd64 1.1.28-2.1ubuntu0.3 [146 kB]
+Get:28 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx-common all 1.10.3-0ubuntu0.16.04.5 [26.9 kB]
+Get:29 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx-core amd64 1.10.3-0ubuntu0.16.04.5 [429 kB]
+Get:30 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx all 1.10.3-0ubuntu0.16.04.5 [3494 B]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 15.5 MB in 23s (650 kB/s)
+Selecting previously unselected package libxau6:amd64.
+(Reading database ... 4781 files and directories currently installed.)
+Preparing to unpack .../libxau6_1%3a1.0.8-1_amd64.deb ...
+Unpacking libxau6:amd64 (1:1.0.8-1) ...
+Selecting previously unselected package sgml-base.
+Preparing to unpack .../sgml-base_1.26+nmu4ubuntu1_all.deb ...
+Unpacking sgml-base (1.26+nmu4ubuntu1) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../libjpeg-turbo8_1.4.2-0ubuntu3.3_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (1.4.2-0ubuntu3.3) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../libjbig0_2.1-3.1_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../libexpat1_2.1.0-7ubuntu0.16.04.5_amd64.deb ...
+Unpacking libexpat1:amd64 (2.1.0-7ubuntu0.16.04.5) ...
+Selecting previously unselected package libpng12-0:amd64.
+Preparing to unpack .../libpng12-0_1.2.54-1ubuntu1.1_amd64.deb ...
+Unpacking libpng12-0:amd64 (1.2.54-1ubuntu1.1) ...
+Selecting previously unselected package libssl1.0.0:amd64.
+Preparing to unpack .../libssl1.0.0_1.0.2g-1ubuntu4.15_amd64.deb ...
+Unpacking libssl1.0.0:amd64 (1.0.2g-1ubuntu4.15) ...
+Selecting previously unselected package ucf.
+Preparing to unpack .../archives/ucf_3.0036_all.deb ...
+Moving old data out of the way
+Unpacking ucf (3.0036) ...
+Selecting previously unselected package geoip-database.
+Preparing to unpack .../geoip-database_20160408-1_all.deb ...
+Unpacking geoip-database (20160408-1) ...
+Selecting previously unselected package libgeoip1:amd64.
+Preparing to unpack .../libgeoip1_1.6.9-1_amd64.deb ...
+Unpacking libgeoip1:amd64 (1.6.9-1) ...
+Selecting previously unselected package libicu55:amd64.
+Preparing to unpack .../libicu55_55.1-7ubuntu0.4_amd64.deb ...
+Unpacking libicu55:amd64 (55.1-7ubuntu0.4) ...
+Selecting previously unselected package libxdmcp6:amd64.
+Preparing to unpack .../libxdmcp6_1%3a1.1.2-1.1_amd64.deb ...
+Unpacking libxdmcp6:amd64 (1:1.1.2-1.1) ...
+Selecting previously unselected package libxcb1:amd64.
+Preparing to unpack .../libxcb1_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb1:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libx11-data.
+Preparing to unpack .../libx11-data_2%3a1.6.3-1ubuntu2.1_all.deb ...
+Unpacking libx11-data (2:1.6.3-1ubuntu2.1) ...
+Selecting previously unselected package libx11-6:amd64.
+Preparing to unpack .../libx11-6_2%3a1.6.3-1ubuntu2.1_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.6.3-1ubuntu2.1) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../libxml2_2.9.3+dfsg1-1ubuntu0.7_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.3+dfsg1-1ubuntu0.7) ...
+Selecting previously unselected package xml-core.
+Preparing to unpack .../xml-core_0.13+nmu2_all.deb ...
+Unpacking xml-core (0.13+nmu2) ...
+Selecting previously unselected package fonts-dejavu-core.
+Preparing to unpack .../fonts-dejavu-core_2.35-1_all.deb ...
+Unpacking fonts-dejavu-core (2.35-1) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../fontconfig-config_2.11.94-0ubuntu1.1_all.deb ...
+Unpacking fontconfig-config (2.11.94-0ubuntu1.1) ...
+Selecting previously unselected package libfreetype6:amd64.
+Preparing to unpack .../libfreetype6_2.6.1-0.1ubuntu2.4_amd64.deb ...
+Unpacking libfreetype6:amd64 (2.6.1-0.1ubuntu2.4) ...
+Selecting previously unselected package libfontconfig1:amd64.
+Preparing to unpack .../libfontconfig1_2.11.94-0ubuntu1.1_amd64.deb ...
+Unpacking libfontconfig1:amd64 (2.11.94-0ubuntu1.1) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../libjpeg8_8c-2ubuntu8_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu8) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../libtiff5_4.0.6-1ubuntu0.7_amd64.deb ...
+Unpacking libtiff5:amd64 (4.0.6-1ubuntu0.7) ...
+Selecting previously unselected package libvpx3:amd64.
+Preparing to unpack .../libvpx3_1.5.0-2ubuntu1.1_amd64.deb ...
+Unpacking libvpx3:amd64 (1.5.0-2ubuntu1.1) ...
+Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../libxpm4_1%3a3.5.11-1ubuntu0.16.04.1_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.11-1ubuntu0.16.04.1) ...
+Selecting previously unselected package libgd3:amd64.
+Preparing to unpack .../libgd3_2.1.1-4ubuntu0.16.04.11_amd64.deb ...
+Unpacking libgd3:amd64 (2.1.1-4ubuntu0.16.04.11) ...
+Selecting previously unselected package libxslt1.1:amd64.
+Preparing to unpack .../libxslt1.1_1.1.28-2.1ubuntu0.3_amd64.deb ...
+Unpacking libxslt1.1:amd64 (1.1.28-2.1ubuntu0.3) ...
+Selecting previously unselected package nginx-common.
+Preparing to unpack .../nginx-common_1.10.3-0ubuntu0.16.04.5_all.deb ...
+Unpacking nginx-common (1.10.3-0ubuntu0.16.04.5) ...
+Selecting previously unselected package nginx-core.
+Preparing to unpack .../nginx-core_1.10.3-0ubuntu0.16.04.5_amd64.deb ...
+Unpacking nginx-core (1.10.3-0ubuntu0.16.04.5) ...
+Selecting previously unselected package nginx.
+Preparing to unpack .../nginx_1.10.3-0ubuntu0.16.04.5_all.deb ...
+Unpacking nginx (1.10.3-0ubuntu0.16.04.5) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for systemd (229-4ubuntu21.27) ...
+Setting up libxau6:amd64 (1:1.0.8-1) ...
+Setting up sgml-base (1.26+nmu4ubuntu1) ...
+Setting up libjpeg-turbo8:amd64 (1.4.2-0ubuntu3.3) ...
+Setting up libjbig0:amd64 (2.1-3.1) ...
+Setting up libexpat1:amd64 (2.1.0-7ubuntu0.16.04.5) ...
+Setting up libpng12-0:amd64 (1.2.54-1ubuntu1.1) ...
+Setting up libssl1.0.0:amd64 (1.0.2g-1ubuntu4.15) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up ucf (3.0036) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up geoip-database (20160408-1) ...
+Setting up libgeoip1:amd64 (1.6.9-1) ...
+Setting up libicu55:amd64 (55.1-7ubuntu0.4) ...
+Setting up libxdmcp6:amd64 (1:1.1.2-1.1) ...
+Setting up libxcb1:amd64 (1.11.1-1ubuntu1) ...
+Setting up libx11-data (2:1.6.3-1ubuntu2.1) ...
+Setting up libx11-6:amd64 (2:1.6.3-1ubuntu2.1) ...
+Setting up libxml2:amd64 (2.9.3+dfsg1-1ubuntu0.7) ...
+Setting up xml-core (0.13+nmu2) ...
+Setting up fonts-dejavu-core (2.35-1) ...
+Setting up fontconfig-config (2.11.94-0ubuntu1.1) ...
+Setting up libfreetype6:amd64 (2.6.1-0.1ubuntu2.4) ...
+Setting up libfontconfig1:amd64 (2.11.94-0ubuntu1.1) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu8) ...
+Setting up libtiff5:amd64 (4.0.6-1ubuntu0.7) ...
+Setting up libvpx3:amd64 (1.5.0-2ubuntu1.1) ...
+Setting up libxpm4:amd64 (1:3.5.11-1ubuntu0.16.04.1) ...
+Setting up libgd3:amd64 (2.1.1-4ubuntu0.16.04.11) ...
+Setting up libxslt1.1:amd64 (1.1.28-2.1ubuntu0.3) ...
+Setting up nginx-common (1.10.3-0ubuntu0.16.04.5) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up nginx-core (1.10.3-0ubuntu0.16.04.5) ...
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up nginx (1.10.3-0ubuntu0.16.04.5) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for sgml-base (1.26+nmu4ubuntu1) ...
+Processing triggers for systemd (229-4ubuntu21.27) ...
+Removing intermediate container 650adfa8796c
+ ---> bf04a9c0547b
+Step 3/4 : EXPOSE 80
+ ---> Running in 5605765e948c
+Removing intermediate container 5605765e948c
+ ---> 848742d66687
+Step 4/4 : CMD ["nginx", "-g", "daemon off;"]
+ ---> Running in 100cf6a0a350
+Removing intermediate container 100cf6a0a350
+ ---> c72a28c5bfca
+Successfully built c72a28c5bfca
+Successfully tagged img_expose:latest
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ sudo docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS                  NAMES
+29752021a9ee        img_run-env         "bash"                   7 minutes ago       Up 7 minutes                                       cont_run-env
+9fae32d4b190        hello-world         "/hello"                 38 minutes ago      Exited (0) 38 minutes ago                          condescending_faraday
+bcf028fcfc46        nginx:latest        "nginx -g 'daemon of…"   39 minutes ago      Exited (0) 38 minutes ago                          eloquent_agnesi
+d04cc9e6980e        nginx:latest        "nginx -g 'daemon of…"   42 minutes ago      Up 42 minutes               0.0.0.0:8000->80/tcp   web-server-nginx
+d814508236f3        hello-world         "/hello"                 55 minutes ago      Exited (0) 55 minutes ago                          practical_hoover
+ccfdb02683ca        hello-world         "/hello"                 3 hours ago         Exited (0) 3 hours ago                             competent_kapitsa
+7cd5eb5c787d        hello-world         "/hello"                 12 days ago         Exited (0) 12 days ago                             happy_sutherland
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ sudo docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+img_expose          latest              c72a28c5bfca        32 seconds ago      181MB
+img_run-env         latest              c4af2c18e103        8 minutes ago       140MB
+img_from            latest              6b3d70f1d48d        13 minutes ago      150MB
+nginx               latest              a1523e859360        38 hours ago        127MB
+ubuntu              16.04               77be327e4b63        6 days ago          124MB
+nginx               <none>              2073e0bcb60e        3 weeks ago         127MB
+hello-world         latest              fce289e99eb9        14 months ago       1.84kB
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ sudo docker run -itd --rm --name cont_expose -p 8080:80 img_expose
+4072690084a056ee8ad0d8749da7f0ac44c9c2454b2c11bc4b78300614ef19b1
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ sudo docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS                  NAMES
+4072690084a0        img_expose          "nginx -g 'daemon of…"   5 seconds ago       Up 3 seconds                0.0.0.0:8080->80/tcp   cont_expose
+29752021a9ee        img_run-env         "bash"                   8 minutes ago       Up 8 minutes                                       cont_run-env
+9fae32d4b190        hello-world         "/hello"                 39 minutes ago      Exited (0) 39 minutes ago                          condescending_faraday
+bcf028fcfc46        nginx:latest        "nginx -g 'daemon of…"   41 minutes ago      Exited (0) 40 minutes ago                          eloquent_agnesi
+d04cc9e6980e        nginx:latest        "nginx -g 'daemon of…"   44 minutes ago      Up 44 minutes               0.0.0.0:8000->80/tcp   web-server-nginx
+d814508236f3        hello-world         "/hello"                 56 minutes ago      Exited (0) 56 minutes ago                          practical_hoover
+ccfdb02683ca        hello-world         "/hello"                 3 hours ago         Exited (0) 3 hours ago                             competent_kapitsa
+7cd5eb5c787d        hello-world         "/hello"                 12 days ago         Exited (0) 12 days ago                             happy_sutherland
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ sudo docker stop 29752021a9ee
+29752021a9ee
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ sudo docker stop d04cc9e6980e
+d04cc9e6980e
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ sudo docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS                  NAMES
+4072690084a0        img_expose          "nginx -g 'daemon of…"   2 minutes ago       Up 2 minutes                0.0.0.0:8080->80/tcp   cont_expose
+29752021a9ee        img_run-env         "bash"                   11 minutes ago      Exited (0) 24 seconds ago                          cont_run-env
+9fae32d4b190        hello-world         "/hello"                 42 minutes ago      Exited (0) 42 minutes ago                          condescending_faraday
+bcf028fcfc46        nginx:latest        "nginx -g 'daemon of…"   44 minutes ago      Exited (0) 43 minutes ago                          eloquent_agnesi
+d04cc9e6980e        nginx:latest        "nginx -g 'daemon of…"   47 minutes ago      Exited (0) 10 seconds ago                          web-server-nginx
+d814508236f3        hello-world         "/hello"                 59 minutes ago      Exited (0) 59 minutes ago                          practical_hoover
+ccfdb02683ca        hello-world         "/hello"                 3 hours ago         Exited (0) 3 hours ago                             competent_kapitsa
+7cd5eb5c787d        hello-world         "/hello"                 12 days ago         Exited (0) 12 days ago                             happy_sutherland
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ sudo docker container stop cont_expose
+cont_expose
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D6$ cd ..
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2$ ls
+D1  D2  D6  D7
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2$ cd D7
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D7$ ls
+Dockerfile.txt
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D7$ suod docker build -t img_apache .
+
+Command 'suod' not found, did you mean:
+
+  command 'sudo' from deb sudo
+  command 'sudo' from deb sudo-ldap
+
+Try: sudo apt install <deb name>
+
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D7$ sudo docker build -t img_apache .
+Sending build context to Docker daemon  2.048kB
+Step 1/8 : FROM ubuntu:12.04
+12.04: Pulling from library/ubuntu
+d8868e50ac4c: Pull complete 
+83251ac64627: Pull complete 
+589bba2f1b36: Pull complete 
+d62ecaceda39: Pull complete 
+6d93b41cfc6b: Pull complete 
+Digest: sha256:18305429afa14ea462f810146ba44d4363ae76e4c8dfc38288cf73aa07485005
+Status: Downloaded newer image for ubuntu:12.04
+ ---> 5b117edd0b76
+Step 2/8 : LABEL Creator: "Cerulean Canvas"
+ ---> Running in dde8a4a3a167
+Removing intermediate container dde8a4a3a167
+ ---> 51fdb0b89667
+Step 3/8 : RUN apt-get update && apt-get install -y apache2     && apt-get clean     && rm -rf /var/lib/apt/lists/*
+ ---> Running in 18c43f4cb8fb
+Get:1 http://archive.ubuntu.com precise Release.gpg [198 B]
+Get:2 http://archive.ubuntu.com precise-updates Release.gpg [198 B]
+Get:3 http://archive.ubuntu.com precise-security Release.gpg [181 B]
+Get:4 http://archive.ubuntu.com precise Release [49.6 kB]
+Get:5 http://archive.ubuntu.com precise-updates Release [55.4 kB]
+Get:6 http://archive.ubuntu.com precise-security Release [55.5 kB]
+Get:7 http://archive.ubuntu.com precise/main Sources [1175 kB]
+Get:8 http://archive.ubuntu.com precise/restricted Sources [5306 B]
+Get:9 http://archive.ubuntu.com precise/universe Sources [6239 kB]
+Get:10 http://archive.ubuntu.com precise/main amd64 Packages [1640 kB]
+Get:11 http://archive.ubuntu.com precise/restricted amd64 Packages [9098 B]
+Get:12 http://archive.ubuntu.com precise/universe amd64 Packages [6167 kB]
+Get:13 http://archive.ubuntu.com precise/main i386 Packages [1641 kB]
+Get:14 http://archive.ubuntu.com precise/restricted i386 Packages [9108 B]
+Get:15 http://archive.ubuntu.com precise/universe i386 Packages [6180 kB]
+Get:16 http://archive.ubuntu.com precise-updates/main Sources [618 kB]
+Get:17 http://archive.ubuntu.com precise-updates/main Sources [618 kB]
+Get:18 http://archive.ubuntu.com precise-updates/restricted Sources [9232 B]
+Get:19 http://archive.ubuntu.com precise-updates/universe Sources [169 kB]
+Get:20 http://archive.ubuntu.com precise-updates/main amd64 Packages [960 kB]
+Get:21 http://archive.ubuntu.com precise-updates/restricted amd64 Packages [19.6 kB]
+Get:22 http://archive.ubuntu.com precise-updates/universe amd64 Packages [372 kB]
+Get:23 http://archive.ubuntu.com precise-updates/main i386 Packages [964 kB]
+Get:24 http://archive.ubuntu.com precise-updates/restricted i386 Packages [19.5 kB]
+Get:25 http://archive.ubuntu.com precise-updates/universe i386 Packages [382 kB]
+Get:26 http://archive.ubuntu.com precise-security/main Sources [190 kB]
+Get:27 http://archive.ubuntu.com precise-security/restricted Sources [4579 B]
+Get:28 http://archive.ubuntu.com precise-security/universe Sources [68.4 kB]
+Get:29 http://archive.ubuntu.com precise-security/main amd64 Packages [481 kB]
+Get:30 http://archive.ubuntu.com precise-security/restricted amd64 Packages [13.8 kB]
+Get:31 http://archive.ubuntu.com precise-security/universe amd64 Packages [187 kB]
+Get:32 http://archive.ubuntu.com precise-security/main i386 Packages [483 kB]
+Get:33 http://archive.ubuntu.com precise-security/restricted i386 Packages [13.8 kB]
+Get:34 http://archive.ubuntu.com precise-security/universe i386 Packages [197 kB]
+Fetched 28.4 MB in 41s (676 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  apache2-mpm-worker apache2-utils apache2.2-bin apache2.2-common file libapr1
+  libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libasn1-8-heimdal
+  libcap2 libclass-isa-perl libexpat1 libgcrypt11 libgdbm3 libgnutls26
+  libgpg-error0 libgssapi3-heimdal libhcrypto4-heimdal libheimbase1-heimdal
+  libheimntlm0-heimdal libhx509-5-heimdal libkrb5-26-heimdal libldap-2.4-2
+  libmagic1 libp11-kit0 libroken18-heimdal libsasl2-2 libsasl2-modules
+  libsqlite3-0 libswitch-perl libtasn1-3 libwind0-heimdal mime-support netbase
+  openssl perl perl-modules ssl-cert
+Suggested packages:
+  www-browser apache2-doc apache2-suexec apache2-suexec-custom ufw rng-tools
+  gnutls-bin libsasl2-modules-otp libsasl2-modules-ldap libsasl2-modules-sql
+  libsasl2-modules-gssapi-mit libsasl2-modules-gssapi-heimdal ca-certificates
+  perl-doc libterm-readline-gnu-perl libterm-readline-perl-perl make
+  libpod-plainer-perl openssl-blacklist
+The following NEW packages will be installed:
+  apache2 apache2-mpm-worker apache2-utils apache2.2-bin apache2.2-common file
+  libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap
+  libasn1-8-heimdal libcap2 libclass-isa-perl libexpat1 libgcrypt11 libgdbm3
+  libgnutls26 libgpg-error0 libgssapi3-heimdal libhcrypto4-heimdal
+  libheimbase1-heimdal libheimntlm0-heimdal libhx509-5-heimdal
+  libkrb5-26-heimdal libldap-2.4-2 libmagic1 libp11-kit0 libroken18-heimdal
+  libsasl2-2 libsasl2-modules libsqlite3-0 libswitch-perl libtasn1-3
+  libwind0-heimdal mime-support netbase openssl perl perl-modules ssl-cert
+0 upgraded, 40 newly installed, 0 to remove and 0 not upgraded.
+Need to get 13.2 MB of archives.
+After this operation, 48.9 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu/ precise-updates/main libsqlite3-0 amd64 3.7.9-2ubuntu1.2 [349 kB]
+Get:2 http://archive.ubuntu.com/ubuntu/ precise-updates/main libroken18-heimdal amd64 1.6~git20120311.dfsg.1-2ubuntu0.1 [46.0 kB]
+Get:3 http://archive.ubuntu.com/ubuntu/ precise-updates/main libasn1-8-heimdal amd64 1.6~git20120311.dfsg.1-2ubuntu0.1 [220 kB]
+Get:4 http://archive.ubuntu.com/ubuntu/ precise/main libgpg-error0 amd64 1.10-2ubuntu1 [14.5 kB]
+Get:5 http://archive.ubuntu.com/ubuntu/ precise-updates/main libgcrypt11 amd64 1.5.0-3ubuntu0.6 [282 kB]
+Get:6 http://archive.ubuntu.com/ubuntu/ precise/main libgdbm3 amd64 1.8.3-10 [35.3 kB]
+Get:7 http://archive.ubuntu.com/ubuntu/ precise/main libp11-kit0 amd64 0.12-2ubuntu1 [34.3 kB]
+Get:8 http://archive.ubuntu.com/ubuntu/ precise-updates/main libtasn1-3 amd64 2.10-1ubuntu1.5 [43.6 kB]
+Get:9 http://archive.ubuntu.com/ubuntu/ precise-updates/main libgnutls26 amd64 2.12.14-5ubuntu3.14 [461 kB]
+Get:10 http://archive.ubuntu.com/ubuntu/ precise-updates/main libhcrypto4-heimdal amd64 1.6~git20120311.dfsg.1-2ubuntu0.1 [103 kB]
+Get:11 http://archive.ubuntu.com/ubuntu/ precise-updates/main libheimbase1-heimdal amd64 1.6~git20120311.dfsg.1-2ubuntu0.1 [33.1 kB]
+Get:12 http://archive.ubuntu.com/ubuntu/ precise-updates/main libwind0-heimdal amd64 1.6~git20120311.dfsg.1-2ubuntu0.1 [77.8 kB]
+Get:13 http://archive.ubuntu.com/ubuntu/ precise-updates/main libhx509-5-heimdal amd64 1.6~git20120311.dfsg.1-2ubuntu0.1 [125 kB]
+Get:14 http://archive.ubuntu.com/ubuntu/ precise-updates/main libkrb5-26-heimdal amd64 1.6~git20120311.dfsg.1-2ubuntu0.1 [234 kB]
+Get:15 http://archive.ubuntu.com/ubuntu/ precise-updates/main libheimntlm0-heimdal amd64 1.6~git20120311.dfsg.1-2ubuntu0.1 [16.0 kB]
+Get:16 http://archive.ubuntu.com/ubuntu/ precise-updates/main libgssapi3-heimdal amd64 1.6~git20120311.dfsg.1-2ubuntu0.1 [108 kB]
+Get:17 http://archive.ubuntu.com/ubuntu/ precise-updates/main libsasl2-2 amd64 2.1.25.dfsg1-3ubuntu0.1 [69.1 kB]
+Get:18 http://archive.ubuntu.com/ubuntu/ precise-updates/main libldap-2.4-2 amd64 2.4.28-1.1ubuntu4.6 [185 kB]
+Get:19 http://archive.ubuntu.com/ubuntu/ precise/main libcap2 amd64 1:2.22-1ubuntu3 [12.0 kB]
+Get:20 http://archive.ubuntu.com/ubuntu/ precise-updates/main libexpat1 amd64 2.0.1-7.2ubuntu1.4 [131 kB]
+Get:21 http://archive.ubuntu.com/ubuntu/ precise-updates/main libmagic1 amd64 5.09-2ubuntu0.6 [218 kB]
+Get:22 http://archive.ubuntu.com/ubuntu/ precise-updates/main file amd64 5.09-2ubuntu0.6 [20.0 kB]
+Get:23 http://archive.ubuntu.com/ubuntu/ precise-updates/main mime-support all 3.51-1ubuntu1.1 [30.4 kB]
+Get:24 http://archive.ubuntu.com/ubuntu/ precise/main netbase all 4.47ubuntu1 [15.0 kB]
+Get:25 http://archive.ubuntu.com/ubuntu/ precise-updates/main libsasl2-modules amd64 2.1.25.dfsg1-3ubuntu0.1 [63.2 kB]
+Get:26 http://archive.ubuntu.com/ubuntu/ precise-updates/main openssl amd64 1.0.1-4ubuntu5.39 [524 kB]
+Get:27 http://archive.ubuntu.com/ubuntu/ precise/main libapr1 amd64 1.4.6-1 [89.6 kB]
+Get:28 http://archive.ubuntu.com/ubuntu/ precise/main libaprutil1 amd64 1.3.12+dfsg-3 [74.6 kB]
+Get:29 http://archive.ubuntu.com/ubuntu/ precise/main libaprutil1-dbd-sqlite3 amd64 1.3.12+dfsg-3 [10.4 kB]
+Get:30 http://archive.ubuntu.com/ubuntu/ precise/main libaprutil1-ldap amd64 1.3.12+dfsg-3 [8044 B]
+Get:31 http://archive.ubuntu.com/ubuntu/ precise-updates/main apache2.2-bin amd64 2.2.22-1ubuntu1.11 [1345 kB]
+Get:32 http://archive.ubuntu.com/ubuntu/ precise-updates/main apache2-utils amd64 2.2.22-1ubuntu1.11 [92.2 kB]
+Get:33 http://archive.ubuntu.com/ubuntu/ precise/main libswitch-perl all 2.16-2 [19.2 kB]
+Get:34 http://archive.ubuntu.com/ubuntu/ precise/main libclass-isa-perl all 0.36-3 [11.9 kB]
+Get:35 http://archive.ubuntu.com/ubuntu/ precise-updates/main perl-modules all 5.14.2-6ubuntu2.5 [3397 kB]
+Get:36 http://archive.ubuntu.com/ubuntu/ precise-updates/main perl amd64 5.14.2-6ubuntu2.5 [4412 kB]
+Get:37 http://archive.ubuntu.com/ubuntu/ precise-updates/main apache2.2-common amd64 2.2.22-1ubuntu1.11 [228 kB]
+Get:38 http://archive.ubuntu.com/ubuntu/ precise-updates/main apache2-mpm-worker amd64 2.2.22-1ubuntu1.11 [2306 B]
+Get:39 http://archive.ubuntu.com/ubuntu/ precise-updates/main apache2 amd64 2.2.22-1ubuntu1.11 [1490 B]
+Get:40 http://archive.ubuntu.com/ubuntu/ precise-updates/main ssl-cert all 1.0.28ubuntu0.1 [12.3 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 13.2 MB in 20s (653 kB/s)
+Selecting previously unselected package libsqlite3-0.
+(Reading database ... 7590 files and directories currently installed.)
+Unpacking libsqlite3-0 (from .../libsqlite3-0_3.7.9-2ubuntu1.2_amd64.deb) ...
+Selecting previously unselected package libroken18-heimdal.
+Unpacking libroken18-heimdal (from .../libroken18-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libasn1-8-heimdal.
+Unpacking libasn1-8-heimdal (from .../libasn1-8-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libgpg-error0.
+Unpacking libgpg-error0 (from .../libgpg-error0_1.10-2ubuntu1_amd64.deb) ...
+Selecting previously unselected package libgcrypt11.
+Unpacking libgcrypt11 (from .../libgcrypt11_1.5.0-3ubuntu0.6_amd64.deb) ...
+Selecting previously unselected package libgdbm3.
+Unpacking libgdbm3 (from .../libgdbm3_1.8.3-10_amd64.deb) ...
+Selecting previously unselected package libp11-kit0.
+Unpacking libp11-kit0 (from .../libp11-kit0_0.12-2ubuntu1_amd64.deb) ...
+Selecting previously unselected package libtasn1-3.
+Unpacking libtasn1-3 (from .../libtasn1-3_2.10-1ubuntu1.5_amd64.deb) ...
+Selecting previously unselected package libgnutls26.
+Unpacking libgnutls26 (from .../libgnutls26_2.12.14-5ubuntu3.14_amd64.deb) ...
+Selecting previously unselected package libhcrypto4-heimdal.
+Unpacking libhcrypto4-heimdal (from .../libhcrypto4-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libheimbase1-heimdal.
+Unpacking libheimbase1-heimdal (from .../libheimbase1-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libwind0-heimdal.
+Unpacking libwind0-heimdal (from .../libwind0-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libhx509-5-heimdal.
+Unpacking libhx509-5-heimdal (from .../libhx509-5-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libkrb5-26-heimdal.
+Unpacking libkrb5-26-heimdal (from .../libkrb5-26-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libheimntlm0-heimdal.
+Unpacking libheimntlm0-heimdal (from .../libheimntlm0-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libgssapi3-heimdal.
+Unpacking libgssapi3-heimdal (from .../libgssapi3-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libsasl2-2.
+Unpacking libsasl2-2 (from .../libsasl2-2_2.1.25.dfsg1-3ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package libldap-2.4-2.
+Unpacking libldap-2.4-2 (from .../libldap-2.4-2_2.4.28-1.1ubuntu4.6_amd64.deb) ...
+Selecting previously unselected package libcap2.
+Unpacking libcap2 (from .../libcap2_1%3a2.22-1ubuntu3_amd64.deb) ...
+Selecting previously unselected package libexpat1.
+Unpacking libexpat1 (from .../libexpat1_2.0.1-7.2ubuntu1.4_amd64.deb) ...
+Selecting previously unselected package libmagic1.
+Unpacking libmagic1 (from .../libmagic1_5.09-2ubuntu0.6_amd64.deb) ...
+Selecting previously unselected package file.
+Unpacking file (from .../file_5.09-2ubuntu0.6_amd64.deb) ...
+Selecting previously unselected package mime-support.
+Unpacking mime-support (from .../mime-support_3.51-1ubuntu1.1_all.deb) ...
+Selecting previously unselected package netbase.
+Unpacking netbase (from .../netbase_4.47ubuntu1_all.deb) ...
+Selecting previously unselected package libsasl2-modules.
+Unpacking libsasl2-modules (from .../libsasl2-modules_2.1.25.dfsg1-3ubuntu0.1_amd64.deb) ...
+Selecting previously unselected package openssl.
+Unpacking openssl (from .../openssl_1.0.1-4ubuntu5.39_amd64.deb) ...
+Selecting previously unselected package libapr1.
+Unpacking libapr1 (from .../libapr1_1.4.6-1_amd64.deb) ...
+Selecting previously unselected package libaprutil1.
+Unpacking libaprutil1 (from .../libaprutil1_1.3.12+dfsg-3_amd64.deb) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3.
+Unpacking libaprutil1-dbd-sqlite3 (from .../libaprutil1-dbd-sqlite3_1.3.12+dfsg-3_amd64.deb) ...
+Selecting previously unselected package libaprutil1-ldap.
+Unpacking libaprutil1-ldap (from .../libaprutil1-ldap_1.3.12+dfsg-3_amd64.deb) ...
+Selecting previously unselected package apache2.2-bin.
+Unpacking apache2.2-bin (from .../apache2.2-bin_2.2.22-1ubuntu1.11_amd64.deb) ...
+Selecting previously unselected package apache2-utils.
+Unpacking apache2-utils (from .../apache2-utils_2.2.22-1ubuntu1.11_amd64.deb) ...
+Selecting previously unselected package libswitch-perl.
+Unpacking libswitch-perl (from .../libswitch-perl_2.16-2_all.deb) ...
+Selecting previously unselected package libclass-isa-perl.
+Unpacking libclass-isa-perl (from .../libclass-isa-perl_0.36-3_all.deb) ...
+Selecting previously unselected package perl-modules.
+Unpacking perl-modules (from .../perl-modules_5.14.2-6ubuntu2.5_all.deb) ...
+Selecting previously unselected package perl.
+Unpacking perl (from .../perl_5.14.2-6ubuntu2.5_amd64.deb) ...
+Selecting previously unselected package apache2.2-common.
+Unpacking apache2.2-common (from .../apache2.2-common_2.2.22-1ubuntu1.11_amd64.deb) ...
+Selecting previously unselected package apache2-mpm-worker.
+Unpacking apache2-mpm-worker (from .../apache2-mpm-worker_2.2.22-1ubuntu1.11_amd64.deb) ...
+Selecting previously unselected package apache2.
+Unpacking apache2 (from .../apache2_2.2.22-1ubuntu1.11_amd64.deb) ...
+Selecting previously unselected package ssl-cert.
+Unpacking ssl-cert (from .../ssl-cert_1.0.28ubuntu0.1_all.deb) ...
+Setting up libsqlite3-0 (3.7.9-2ubuntu1.2) ...
+Setting up libroken18-heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1) ...
+Setting up libasn1-8-heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1) ...
+Setting up libgpg-error0 (1.10-2ubuntu1) ...
+Setting up libgcrypt11 (1.5.0-3ubuntu0.6) ...
+Setting up libgdbm3 (1.8.3-10) ...
+Setting up libp11-kit0 (0.12-2ubuntu1) ...
+Setting up libtasn1-3 (2.10-1ubuntu1.5) ...
+Setting up libgnutls26 (2.12.14-5ubuntu3.14) ...
+Setting up libhcrypto4-heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1) ...
+Setting up libheimbase1-heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1) ...
+Setting up libwind0-heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1) ...
+Setting up libhx509-5-heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1) ...
+Setting up libkrb5-26-heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1) ...
+Setting up libheimntlm0-heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1) ...
+Setting up libgssapi3-heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1) ...
+Setting up libsasl2-2 (2.1.25.dfsg1-3ubuntu0.1) ...
+Setting up libldap-2.4-2 (2.4.28-1.1ubuntu4.6) ...
+Setting up libcap2 (1:2.22-1ubuntu3) ...
+Setting up libexpat1 (2.0.1-7.2ubuntu1.4) ...
+Setting up libmagic1 (5.09-2ubuntu0.6) ...
+Setting up file (5.09-2ubuntu0.6) ...
+Setting up mime-support (3.51-1ubuntu1.1) ...
+update-alternatives: using /usr/bin/see to provide /usr/bin/view (view) in auto mode.
+Setting up netbase (4.47ubuntu1) ...
+Setting up libsasl2-modules (2.1.25.dfsg1-3ubuntu0.1) ...
+Setting up openssl (1.0.1-4ubuntu5.39) ...
+Setting up libapr1 (1.4.6-1) ...
+Setting up libaprutil1 (1.3.12+dfsg-3) ...
+Setting up libaprutil1-dbd-sqlite3 (1.3.12+dfsg-3) ...
+Setting up libaprutil1-ldap (1.3.12+dfsg-3) ...
+Setting up apache2.2-bin (2.2.22-1ubuntu1.11) ...
+Setting up apache2-utils (2.2.22-1ubuntu1.11) ...
+Setting up libclass-isa-perl (0.36-3) ...
+Setting up ssl-cert (1.0.28ubuntu0.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+Setting up libswitch-perl (2.16-2) ...
+Setting up perl-modules (5.14.2-6ubuntu2.5) ...
+Setting up perl (5.14.2-6ubuntu2.5) ...
+update-alternatives: using /usr/bin/prename to provide /usr/bin/rename (rename) in auto mode.
+Setting up apache2.2-common (2.2.22-1ubuntu1.11) ...
+Enabling site default.
+Enabling module alias.
+Enabling module autoindex.
+Enabling module dir.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module status.
+Enabling module auth_basic.
+Enabling module deflate.
+Enabling module authz_default.
+Enabling module authz_user.
+Enabling module authz_groupfile.
+Enabling module authn_file.
+Enabling module authz_host.
+Enabling module reqtimeout.
+Setting up apache2-mpm-worker (2.2.22-1ubuntu1.11) ...
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up apache2 (2.2.22-1ubuntu1.11) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Removing intermediate container 18c43f4cb8fb
+ ---> fa2f698d2ec2
+Step 4/8 : ENV APACHE_RUN_USER www-data
+ ---> Running in c70f8607850c
+Removing intermediate container c70f8607850c
+ ---> a60225629732
+Step 5/8 : ENV APACHE_RUN_GROUP www-data
+ ---> Running in 00fe24edbc41
+Removing intermediate container 00fe24edbc41
+ ---> bb8aa92af85d
+Step 6/8 : ENV APACHE_LOG_DIR /var/log/apache2
+ ---> Running in 82115d62b98f
+Removing intermediate container 82115d62b98f
+ ---> 7482fb1ff2c8
+Step 7/8 : EXPOSE 80
+ ---> Running in 1f516ea971b5
+Removing intermediate container 1f516ea971b5
+ ---> fea83e18fd45
+Step 8/8 : CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
+ ---> Running in 9af908ce1070
+Removing intermediate container 9af908ce1070
+ ---> 486bafd7e37c
+Successfully built 486bafd7e37c
+Successfully tagged img_apache:latest
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D7$ sudo docker run -itd --name cont_apache -p 8080:80 img_apache
+1fc49f77a3661392424099b58c24efe530798a1684a4266a42d339d326cfb373
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2/D7$ cd ..
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker/S2$ cd ..
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ ls
+S2  S6
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ docker search python:3.7
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.40/images/search?limit=25&term=python%3A3.7: dial unix /var/run/docker.sock: connect: permission denied
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker search python:3.7
+NAME                                        DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
+t1zanae/python                              python:3.7, tesseract, spaCY                    0                                       
+headconnect/acc-provision                   A simple image based on python:3.7-simple wh…   0                                       [OK]
+skouriba/aeroform                           An application based on python:3.7 and djang…   0                                       
+carlopires/aiobase                          python:3.7-slim + git client and AsyncIO lib…   0                                       
+zinobe/python3-poppler-utils                python:3.7.4 with poppler utils                 0                                       
+qsam/spacy_alpine                           python:3.7-alpine with spacy installed          0                                       
+tplgr/airflow                               Basic Airflow image based on python:3.7.5-sl…   0                                       
+statestitle/pyal-chromium                   python:3.7 alpine:3.8 chromium=68.0.3440.75-…   0                                       [OK]
+leighjohnson/jupyterhub                     Jupyterhub image based on python:3.7-stretch    0                                       
+timopih/robotframework-seleniumlibrary      Base image python:3.7-alpine, plus selenium,…   0                                       
+boldare/drone-ci-python37-for-lambda        Pre-build Python Lambda environment image ba…   0                                       
+topargagr/python-tensorflow-opencv-alpine   alpine:3.10 python:3.7.4  tensorflow:1.13.2 …   0                                       
+radlws/3.7-alpine                           python:3.7-alpine with: gcc g++ musl-dev ngi…   0                                       
+marvinpan/python                            python:3.7.2-alpine3.9 with Cython, requests…   0                                       
+aqt01/python-3.7-alpine-3.8-pipenv-heroku   Docker image with: python:3.7.0-alpine3.8, p…   0                                       
+bitbucket/python                            An upgraded version of python:3.7 to address…   0                                       
+dolacmeo/alpine-edge-py37                   From python:3.7.0-alpine3.8, change alpine v…   0                                       [OK]
+bbccorp/python3-django-base                 python:3.7 image with Django and Gunicorn       0                                       
+terrestris/mapproxy                         mapproxy image based on python:3.7 / Debian …   0                                       
+johnkolt/python3.7-twine                    Python:3.7 with twine                           0                                       
+yirami/rqalpha-slim-buster                  Pure environment with rqalpha based on pytho…   0                                       
+studiomj/py-pgsql                           Base on python:3.7-alpine                       0                                       
+durobun/ubntpy                              Ubuntu:18.04 + Python:3.7                       0                                       
+mjam/python-3.7-alpine-postgres             python:3.7-alpine with gcc, musl-dev, postgr…   0                                       
+jclarkk/ffmpeg                              FFMPEG based on Python:3.7.5-buster             0                                       
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker search python:3.6
+NAME                                   DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
+iamsre/hass-arm32v7                    home-assistant for arm32v7/python:3.6-stretch   1                                       
+iwitaly/nlp                            Based on python:3.6-slim, torch==0.4.1 and f…   1                                       
+ignatisd/locustio                      A minimal locustio repository on top of pyth…   1                                       
+marcuslau/terraform-awscli             This docker image pulls from the python:3.6 …   1                                       
+charact3/python-cassandra-driver       A docker image with python cassandra-driver …   1                                       [OK]
+aeoluswing/flask                       A simple flask docker image for python:3.6.5…   1                                       [OK]
+mc706/pipenv-3.6                       python:3.6 + pipenv                             0                                       [OK]
+yamitzky/localstack-python-alpine      Dockernized localstack on python:3.6-alpine.…   0                                       [OK]
+workia/aws-docker-build                python:3.6-alpine + awscli + docker             0                                       
+valentinvoigt/docker-python-npm        python:3.6 with nodejs and npm packages         0                                       [OK]
+pkrishnaaaaa/python_with_node          lightweight image of node:10.14.0 installed …   0                                       
+jexx/jexx-deployer                     python:3.6.2 with jq and awscli                 0                                       
+foobarmus/webapp                       stretch python:3.6 logentries nginx node:8      0                                       
+andyxu9529/scrapy_docker               scrapy images in python:3.6.1-alpine3.6         0                                       [OK]
+joecridge1/python36-geo-zip-awscli     python:3.6 image with geospatial libraries, …   0                                       [OK]
+hubbabt/python                         python:3.6-slim with our own personal flare     0                                       [OK]
+ramarajumk/python-chromedriver         python:3.6.3 chrome-driver:2.46                 0                                       
+amywoodehy/py-nodejs                   Python:3.6 + Nodejs + Yarn + Postgresql Clie…   0                                       
+eamonwoortman/alpine-python-curl-zip   A python:3.6-alpine image which has curl and…   0                                       [OK]
+csig/qci-python3                       official python:3.6-stretch with qci-agent      0                                       
+staros86/py-i386                       based on python:3.6.4 add i386 library, net-…   0                                       
+tnir/mysqlclient                       the Python's mysqlclient Docker image (based…   0                                       [OK]
+gladiatr72/python                      refactor of python:3.6-slim image               0                                       
+oeeckhoutte/python36-ansible           Very simple image based on python:3.6 with a…   0                                       
+lernisto/py36                          python:3.6-alpine                               0                                       
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker search registry
+NAME                                 DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
+registry                             The Docker Registry 2.0 implementation for s…   2862                [OK]                
+distribution/registry                WARNING: NOT the registry official image!!! …   57                                      [OK]
+stefanscherer/registry-windows       Containerized docker registry for Windows Se…   30                                      
+budry/registry-arm                   Docker registry build for Raspberry PI 2 and…   18                                      
+deis/registry                        Docker image registry for the Deis open sour…   12                                      
+anoxis/registry-cli                  You can list and delete tags from your priva…   9                                       [OK]
+sixeyed/registry                     Docker Registry 2.6.0 running on Windows - N…   9                                       
+jc21/registry-ui                     A nice web interface for managing your Docke…   6                                       
+allingeek/registry                   A specialization of registry:2 configured fo…   4                                       [OK]
+pallet/registry-swift                Add swift storage support to the official do…   4                                       [OK]
+arm32v6/registry                     The Docker Registry 2.0 implementation for s…   3                                       
+goharbor/registry-photon                                                             2                                       
+conjurinc/registry-oauth-server      Docker registry authn/authz server backed by…   1                                       
+ibmcom/registry                      Docker Image for IBM Cloud private-CE (Commu…   1                                       
+metadata/registry                    Metadata Registry is a tool which helps you …   1                                       [OK]
+webhippie/registry                   Docker images for Registry                      1                                       [OK]
+dwpdigital/registry-image-resource   Concourse resource type                         0                                       
+kontena/registry                     Kontena Registry                                0                                       
+ghmlee/registrybot                   registrybot                                     0                                       [OK]
+convox/registry                                                                      0                                       
+upmcenterprises/registry-creds                                                       0                                       
+lorieri/registry-ceph                Ceph Rados Gateway (and any other S3 compati…   0                                       
+concourse/registry-image-resource                                                    0                                       
+deepsecurity/registryviews           Deep Security Smart Check                       0                                       
+gisjedi/registry-proxy               Reverse proxy of registry mirror image gisje…   0                                       
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker search --filter "is-official=true" registry
+NAME                DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
+registry            The Docker Registry 2.0 implementation for s…   2862                [OK]                
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker image ls
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+img_apache          latest              486bafd7e37c        12 minutes ago      150MB
+img_expose          latest              c72a28c5bfca        33 minutes ago      181MB
+img_run-env         latest              c4af2c18e103        42 minutes ago      140MB
+img_from            latest              6b3d70f1d48d        47 minutes ago      150MB
+nginx               latest              a1523e859360        39 hours ago        127MB
+ubuntu              16.04               77be327e4b63        6 days ago          124MB
+nginx               <none>              2073e0bcb60e        3 weeks ago         127MB
+hello-world         latest              fce289e99eb9        14 months ago       1.84kB
+ubuntu              12.04               5b117edd0b76        2 years ago         104MB
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker images ubuntu
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              16.04               77be327e4b63        6 days ago          124MB
+ubuntu              12.04               5b117edd0b76        2 years ago         104MB
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker image pull nginx:alpine
+alpine: Pulling from library/nginx
+4167d3e14976: Pull complete 
+db94a93dfca0: Pull complete 
+Digest: sha256:9e81b8f9cef5a095f892183688798a5b2c368663276aa0f2be4b1cd283ace53d
+Status: Downloaded newer image for nginx:alpine
+docker.io/library/nginx:alpine
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker image pull --all-tags nginx
+1-alpine-perl: Pulling from library/nginx
+4167d3e14976: Already exists 
+a655a2e219b0: Pull complete 
+Digest: sha256:a68cbc25884e2267ee24473f6368395d62b70c23f69d1a8a44d98d62db833d74
+1-alpine: Pulling from library/nginx
+Digest: sha256:9e81b8f9cef5a095f892183688798a5b2c368663276aa0f2be4b1cd283ace53d
+1-perl: Pulling from library/nginx
+68ced04f60ab: Already exists 
+6505a25a90ea: Pull complete 
+bcbe9078e5cd: Pull complete 
+Digest: sha256:7037f74011824d6a5e32d5bec00a50e58115f175990c5056f0a99bcc8c851bc5
+1.10-alpine: Pulling from library/nginx
+709515475419: Pull complete 
+99e9cd33175e: Pull complete 
+faa47cbdc651: Pull complete 
+61f03bfea4de: Pull complete 
+Digest: sha256:4aacdcf186934dcb02f642579314075910f1855590fd3039d8fa4c9f96e48315
+1.10.0-alpine: Pulling from library/nginx
+Image docker.io/library/nginx:1.10.0-alpine uses outdated schema1 manifest format. Please upgrade to a schema2 image for better future compatibility. More information at https://docs.docker.com/registry/spec/deprecated-schema-v1/
+d0ca440e8637: Pull complete 
+a3ed95caeb02: Pull complete 
+6a1a96b87f1e: Pull complete 
+c7f7d89c995e: Pull complete 
+01c1484973c6: Pull complete 
+Digest: sha256:5b99c2a3ec2b3273a7f77b661941a94e6fa2aa38e5a94c1d90e0924eceefb1e6
+1.10.0: Pulling from library/nginx
+Image docker.io/library/nginx:1.10.0 uses outdated schema1 manifest format. Please upgrade to a schema2 image for better future compatibility. More information at https://docs.docker.com/registry/spec/deprecated-schema-v1/
+51f5c6a04d83: Pull complete 
+a3ed95caeb02: Pull complete 
+14ef99dba46e: Pull complete 
+3e91b3ec524a: Pull complete 
+Digest: sha256:7224f0a40f2110889889f47dcafa972a8658b7bdd3b50cfa12fd5f80364cbcfe
+1.10.1-alpine: Pulling from library/nginx
+3690ec4760f9: Pull complete 
+ee5c8ce18d68: Pull complete 
+30cd4181f7f3: Pull complete 
+c0adc6a24f23: Pull complete 
+Digest: sha256:dabd1d182f12e2a7d372338dfd0cde303ef042a6ba01cc829ef464982f9c9e2c
+1.10.1: Pulling from library/nginx
+6a5a5368e0c2: Pull complete 
+a5cc0180eabb: Pull complete 
+1f16cec22374: Pull complete 
+Digest: sha256:35779791c05d119df4fe476db8f47c0bee5943c83eba5656a15fc046db48178b
+1.10.2-alpine: Pulling from library/nginx
+b7f33cc0b48e: Pull complete 
+4058182f175e: Pull complete 
+114700a077cd: Pull complete 
+4ef646dad6fe: Pull complete 
+Digest: sha256:ce50816e7216a66ff1e0d99e7d74891c4019952c9e38c690b3c5407f7af57555
+1.10.2: Pulling from library/nginx
+5040bd298390: Pull complete 
+7d69db73ca5e: Pull complete 
+c443397ccfcc: Pull complete 
+Digest: sha256:06f933c3fceac34b87bba85074fe7b24fe18ae5e4439d8f9dd038371f02947c3
+1.10.3-alpine: Pulling from library/nginx
+Digest: sha256:4aacdcf186934dcb02f642579314075910f1855590fd3039d8fa4c9f96e48315
+1.10.3: Pulling from library/nginx
+6d827a3ef358: Pulling fs layer 
+1e3e18a64ea9: Pulling fs layer 
+556c62bb43ac: Download complete 
+^C
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker images nginx
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+nginx               1-perl              bdd3b1ae4444        39 hours ago        172MB
+nginx               latest              a1523e859360        39 hours ago        127MB
+nginx               <none>              2073e0bcb60e        3 weeks ago         127MB
+nginx               1-alpine-perl       e74c51ae34a9        5 weeks ago         57.6MB
+nginx               1-alpine            48c8a7c47625        5 weeks ago         21.8MB
+nginx               alpine              48c8a7c47625        5 weeks ago         21.8MB
+nginx               1.10-alpine         f94d6dd9b576        2 years ago         54MB
+nginx               1.10.3-alpine       f94d6dd9b576        2 years ago         54MB
+nginx               1.10.2              e809eede2c4e        3 years ago         181MB
+nginx               1.10.2-alpine       966594183fba        3 years ago         54MB
+nginx               1.10.1-alpine       2cd900f340dd        3 years ago         54MB
+nginx               1.10.1              bf2b4c2d7bf5        3 years ago         181MB
+nginx               1.10.0              16666ff3a57f        3 years ago         183MB
+nginx               1.10.0-alpine       8328c2365672        3 years ago         60.6MB
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker login
+Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
+Username: ceruleancanvas
+Password: 
+Error response from daemon: Get https://registry-1.docker.io/v2/: unauthorized: incorrect username or password
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker login
+Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
+Username: ceruleancanvas
+Password: 
+Error response from daemon: Get https://registry-1.docker.io/v2/: unauthorized: incorrect username or password
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker login
+Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
+Username: adi123456789
+Password: 
+WARNING! Your password will be stored unencrypted in /home/aditya/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker tag nginx:latest adi123456789/repo-nginx:cc-nginx
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker images
+REPOSITORY                TAG                 IMAGE ID            CREATED             SIZE
+img_apache                latest              486bafd7e37c        28 minutes ago      150MB
+img_expose                latest              c72a28c5bfca        50 minutes ago      181MB
+img_run-env               latest              c4af2c18e103        58 minutes ago      140MB
+img_from                  latest              6b3d70f1d48d        About an hour ago   150MB
+nginx                     1-perl              bdd3b1ae4444        39 hours ago        172MB
+adi123456789/repo-nginx   cc-nginx            a1523e859360        39 hours ago        127MB
+nginx                     latest              a1523e859360        39 hours ago        127MB
+ubuntu                    16.04               77be327e4b63        6 days ago          124MB
+nginx                     <none>              2073e0bcb60e        3 weeks ago         127MB
+nginx                     1-alpine-perl       e74c51ae34a9        5 weeks ago         57.6MB
+nginx                     1-alpine            48c8a7c47625        5 weeks ago         21.8MB
+nginx                     alpine              48c8a7c47625        5 weeks ago         21.8MB
+hello-world               latest              fce289e99eb9        14 months ago       1.84kB
+ubuntu                    12.04               5b117edd0b76        2 years ago         104MB
+nginx                     1.10-alpine         f94d6dd9b576        2 years ago         54MB
+nginx                     1.10.3-alpine       f94d6dd9b576        2 years ago         54MB
+nginx                     1.10.2              e809eede2c4e        3 years ago         181MB
+nginx                     1.10.2-alpine       966594183fba        3 years ago         54MB
+nginx                     1.10.1-alpine       2cd900f340dd        3 years ago         54MB
+nginx                     1.10.1              bf2b4c2d7bf5        3 years ago         181MB
+nginx                     1.10.0              16666ff3a57f        3 years ago         183MB
+nginx                     1.10.0-alpine       8328c2365672        3 years ago         60.6MB
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker image push adi123456789/repo-nginx:cc-nginx
+The push refers to repository [docker.io/adi123456789/repo-nginx]
+318be7aea8fc: Mounted from library/nginx 
+fe08d5d042ab: Mounted from library/nginx 
+f2cb0ecef392: Mounted from library/nginx 
+cc-nginx: digest: sha256:4a50ed86d8c86e35f530d4a168173677a192177eed14146fbb5728b1b3a2d4de size: 948
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker image inspect ubuntu:latest
+[]
+Error: No such image: ubuntu:latest
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker images ubuntu
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              16.04               77be327e4b63        6 days ago          124MB
+ubuntu              12.04               5b117edd0b76        2 years ago         104MB
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker image inspect ubuntu:16.04
+[
+    {
+        "Id": "sha256:77be327e4b63498e0faaa065d30d7c0e5499e42a09275ee19e27fd9a93cde7d7",
+        "RepoTags": [
+            "ubuntu:16.04"
+        ],
+        "RepoDigests": [
+            "ubuntu@sha256:e9938f45e51d9ff46e2b05a62e0546d0f07489b7f22fbc5288defe760599e38a"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2020-02-21T22:22:30.050974423Z",
+        "Container": "039b7d3536d8536def86816de2563b32c0afe2528b8c278b40e3ca7ea46f1ca0",
+        "ContainerConfig": {
+            "Hostname": "039b7d3536d8",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"/bin/bash\"]"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:33059c16dd134896f597b9f74df0c0e014fd42d1f0f0b33144e263df9be1209c",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "18.09.7",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/bash"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:33059c16dd134896f597b9f74df0c0e014fd42d1f0f0b33144e263df9be1209c",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 123986253,
+        "VirtualSize": 123986253,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/a703c5e9cd5b5ae15de736ecabc38ca5a023921684e4024d88cfce58632c5832/diff:/var/lib/docker/overlay2/d4b489b54a57d2540dd1c3220e0bf3a77e51385776bf7ea0e65f2680c3fcb44e/diff:/var/lib/docker/overlay2/6e17dd3d5f75c69c856e67e1e480bbe38fc871364e0572f757a37e49ded125c3/diff",
+                "MergedDir": "/var/lib/docker/overlay2/d87080d6d034bdef00c8087eb09a31d5aff69ed0b41906d5cb6763b4663c680a/merged",
+                "UpperDir": "/var/lib/docker/overlay2/d87080d6d034bdef00c8087eb09a31d5aff69ed0b41906d5cb6763b4663c680a/diff",
+                "WorkDir": "/var/lib/docker/overlay2/d87080d6d034bdef00c8087eb09a31d5aff69ed0b41906d5cb6763b4663c680a/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:9e6f810a2aabaa90d8e79f52847c74617a94e78fe223f4f067d84a6bd63b9393",
+                "sha256:0040d8f00d7e5afc3a96cbc5f10b21d355e5f0efc03f5eb0e523c5c05fb69356",
+                "sha256:aa6685385151f01c1a936ff0b2219539b0f92ebdce8030ff262c88c9ebd294c6",
+                "sha256:4ae3adcb66cbcfca0b15c25b144694f6899737dca6867387dfb789e5ba4f1249"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker rm nginx:l-alpine-perl
+Error: No such container: nginx:l-alpine-perl
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker container create -it --name cc-busybox-A busybox:latest
+Unable to find image 'busybox:latest' locally
+latest: Pulling from library/busybox
+bdbbaa22dec6: Pull complete 
+Digest: sha256:6915be4043561d64e0ab0f8f098dc2ac48e077fe23f488ac24b665166898115a
+Status: Downloaded newer image for busybox:latest
+3b2c81c6f7cc1969d853a9e4eb8874a2dcee287fd265ef855a8de8b0ba3acd1c
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS                  NAMES
+3b2c81c6f7cc        busybox:latest      "sh"                     13 seconds ago      Created                                            cc-busybox-A
+1fc49f77a366        img_apache          "/usr/sbin/apache2 -…"   40 minutes ago      Up 40 minutes               0.0.0.0:8080->80/tcp   cont_apache
+29752021a9ee        img_run-env         "bash"                   About an hour ago   Exited (0) 57 minutes ago                          cont_run-env
+9fae32d4b190        hello-world         "/hello"                 2 hours ago         Exited (0) 2 hours ago                             condescending_faraday
+bcf028fcfc46        nginx:latest        "nginx -g 'daemon of…"   2 hours ago         Exited (0) 2 hours ago                             eloquent_agnesi
+d04cc9e6980e        nginx:latest        "nginx -g 'daemon of…"   2 hours ago         Exited (0) 57 minutes ago                          web-server-nginx
+d814508236f3        hello-world         "/hello"                 2 hours ago         Exited (0) 2 hours ago                             practical_hoover
+ccfdb02683ca        hello-world         "/hello"                 4 hours ago         Exited (0) 4 hours ago                             competent_kapitsa
+7cd5eb5c787d        hello-world         "/hello"                 12 days ago         Exited (0) 12 days ago                             happy_sutherland
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker stop 1fc49f77a366
+1fc49f77a366
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker container run -itd --rm cc-busybox_B busybox:latest
+docker: invalid reference format: repository name must be lowercase.
+See 'docker run --help'.
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker container run -itd --rm cc-busybox_b busybox:latest
+Unable to find image 'cc-busybox_b:latest' locally
+docker: Error response from daemon: pull access denied for cc-busybox_b, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker container run -itd --rm cc-busybox busybox:latest
+Unable to find image 'cc-busybox:latest' locally
+docker: Error response from daemon: pull access denied for cc-busybox, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker container run -itd --rm -name cc-busybox_B busybox:latest
+unknown shorthand flag: 'n' in -name
+See 'docker container run --help'.
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker container run -itd --rm --name cc-busybox_B busybox:latest
+37b8559fbe7d31398344c2075cc4cd652ef2224299c377994ed489aa6700c06b
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                         PORTS               NAMES
+37b8559fbe7d        busybox:latest      "sh"                     12 seconds ago      Up 10 seconds                                      cc-busybox_B
+3b2c81c6f7cc        busybox:latest      "sh"                     3 minutes ago       Created                                            cc-busybox-A
+1fc49f77a366        img_apache          "/usr/sbin/apache2 -…"   43 minutes ago      Exited (0) 2 minutes ago                           cont_apache
+29752021a9ee        img_run-env         "bash"                   About an hour ago   Exited (0) About an hour ago                       cont_run-env
+9fae32d4b190        hello-world         "/hello"                 2 hours ago         Exited (0) 2 hours ago                             condescending_faraday
+bcf028fcfc46        nginx:latest        "nginx -g 'daemon of…"   2 hours ago         Exited (0) 2 hours ago                             eloquent_agnesi
+d04cc9e6980e        nginx:latest        "nginx -g 'daemon of…"   2 hours ago         Exited (0) About an hour ago                       web-server-nginx
+d814508236f3        hello-world         "/hello"                 2 hours ago         Exited (0) 2 hours ago                             practical_hoover
+ccfdb02683ca        hello-world         "/hello"                 4 hours ago         Exited (0) 4 hours ago                             competent_kapitsa
+7cd5eb5c787d        hello-world         "/hello"                 12 days ago         Exited (0) 12 days ago                             happy_sutherland
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker container start cc-busybox-A
+cc-busybox-A
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ psql -v
+
+Command 'psql' not found, but can be installed with:
+
+sudo apt install postgresql-client-common
+
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                         PORTS               NAMES
+37b8559fbe7d        busybox:latest      "sh"                     7 minutes ago       Up 7 minutes                                       cc-busybox_B
+3b2c81c6f7cc        busybox:latest      "sh"                     11 minutes ago      Up 6 minutes                                       cc-busybox-A
+1fc49f77a366        img_apache          "/usr/sbin/apache2 -…"   51 minutes ago      Exited (0) 10 minutes ago                          cont_apache
+29752021a9ee        img_run-env         "bash"                   About an hour ago   Exited (0) About an hour ago                       cont_run-env
+9fae32d4b190        hello-world         "/hello"                 2 hours ago         Exited (0) 2 hours ago                             condescending_faraday
+bcf028fcfc46        nginx:latest        "nginx -g 'daemon of…"   2 hours ago         Exited (0) 2 hours ago                             eloquent_agnesi
+d04cc9e6980e        nginx:latest        "nginx -g 'daemon of…"   2 hours ago         Exited (0) About an hour ago                       web-server-nginx
+d814508236f3        hello-world         "/hello"                 2 hours ago         Exited (0) 2 hours ago                             practical_hoover
+ccfdb02683ca        hello-world         "/hello"                 4 hours ago         Exited (0) 4 hours ago                             competent_kapitsa
+7cd5eb5c787d        hello-world         "/hello"                 12 days ago         Exited (0) 12 days ago                             happy_sutherland
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker container stop cc-busybox_B
+cc-busybox_B
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                         PORTS               NAMES
+3b2c81c6f7cc        busybox:latest      "sh"                     12 minutes ago      Up 7 minutes                                       cc-busybox-A
+1fc49f77a366        img_apache          "/usr/sbin/apache2 -…"   52 minutes ago      Exited (0) 11 minutes ago                          cont_apache
+29752021a9ee        img_run-env         "bash"                   About an hour ago   Exited (0) About an hour ago                       cont_run-env
+9fae32d4b190        hello-world         "/hello"                 2 hours ago         Exited (0) 2 hours ago                             condescending_faraday
+bcf028fcfc46        nginx:latest        "nginx -g 'daemon of…"   2 hours ago         Exited (0) 2 hours ago                             eloquent_agnesi
+d04cc9e6980e        nginx:latest        "nginx -g 'daemon of…"   2 hours ago         Exited (0) About an hour ago                       web-server-nginx
+d814508236f3        hello-world         "/hello"                 2 hours ago         Exited (0) 2 hours ago                             practical_hoover
+ccfdb02683ca        hello-world         "/hello"                 4 hours ago         Exited (0) 4 hours ago                             competent_kapitsa
+7cd5eb5c787d        hello-world         "/hello"                 12 days ago         Exited (0) 12 days ago                             happy_sutherland
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker network create --driver bridge my-bridge
+[sudo] password for aditya: 
+b858901c773ad0ac7f06ee69ed33e2ebc5b5c2a3a93d950f1e2dbd4b06120d8e
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker network create --driver bridge --subnet=192.168.0.0/16 --ip-range=192.168.5.0/24 my-bridge-1
+b677a1eb9e8064b0d40dc353d7b301f3e202c7d32b759ebc8dc6a3161edfa436
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo network ls
+sudo: network: command not found
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ sudo docker network ls
+NETWORK ID          NAME                DRIVER              SCOPE
+cca57edb6bae        bridge              bridge              local
+0f65e9c5fca6        host                host                local
+b858901c773a        my-bridge           bridge              local
+b677a1eb9e80        my-bridge-1         bridge              local
+c1368498cfe9        none                null                local
+aditya@wOrm29:~/Final-Codes/Final Codes/CC_Docker$ 
+
